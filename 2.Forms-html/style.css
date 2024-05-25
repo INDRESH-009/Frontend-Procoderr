@@ -80,6 +80,7 @@ hr{
 }
 a{
     font-size: small;
+    text-decoration: none;
 }
 #business{
     margin-top: 15px;
