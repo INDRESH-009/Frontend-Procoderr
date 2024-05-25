@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Registration</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <img id="logo"  src="./logo.png" alt="Amazon">
+        <div id="form-container">
+            <h2>Create account</h2>
+            <form action="https://www.amazon.in/">
+                <label for="name">Your name</label>
+                <input type="text" id="name" placeholder="First and last name" name="name" required >
+                <label for="mobile">Mobile number or email</label>
+                <input type="text" id="mobile" name="contact" required></input>
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="At least 6 characters" name="psw" required minlength="6">
+                <p id="psw-condition"><i>i</i> &nbsp; Passwords must be atleast 6 characters.</p>
+                <label for="psw-confirm">Re-Enter Password</label>
+                <input type="password" id="psw-confirm" name="re-psw" required>
+                <input id="submit" type="submit" value="Continue">
+            </form>
+            <p id="terms">By creating an account, you agree to Amazon's <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_register_notification_condition_of_use?ie=UTF8&nodeId=508088">Conditions of Use</a> and <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_register_notification_privacy_notice?ie=UTF8&nodeId=468496">Privacy Notice.</a>
+            </p>
+            <hr>
+            <div id="business">
+                <p id="business-acc">Buying for work?</p>
+                <p><a href="https://www.amazon.com/business/register/org/landing?ref_=ap_altreg_ab">Create a free business account</a></p>
+            </div>
+            <hr>
+            <p id="signin">Already have an account? <a href="https://www.amazon.com/ap/signin?openid.pape.max_auth_age=0&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&pageId=usflex&ignoreAuthState=1&prevRID=MDN18YXP85Q8T0YZ49VG&openid.assoc_handle=usflex&openid.mode=checkid_setup&openid.ns.pape=http%3A%2F%2Fspecs.openid.net%2Fextensions%2Fpape%2F1.0&failedSignInCount=0&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&disableLoginPrepopulate=1&switch_account=signin&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0">Sign in</a></p>
+        </div>
+        
+    </div>
+</body>
+</html>
